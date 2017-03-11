@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  background: url("http://i.imgur.com/AdC5Qz0.jpg") no-repeat center center fixed #4267b2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body {
+  background-color: #4267b2;
+  color: white;
+  font-family: 'Roboto', 'sans-serif';
+  width: 400px;
+  margin: 15% auto;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px; }
+  body header {
+    text-align: center; }
+    body header h1, body header h3 {
+      margin-bottom: 10px; }
+  body main form {
+    position: relative; }
+    body main form input[type='text'], body main form input[type='password'] {
+      width: 100%;
+      height: 40px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 3px;
+      padding: 10px;
+      box-sizing: border-box; }
+    body main form button {
+      height: 40px;
+      background-color: #69a74e;
+      width: 100%;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      margin-bottom: 20px; }
+    body main form a {
+      text-decoration: none;
+      color: white;
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+
+/*# sourceMappingURL=facebook.css.map */

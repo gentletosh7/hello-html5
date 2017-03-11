@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  display: flex; /* establish flex container */
+  justify-content: center; /* align items vertically, in this case */
+  align-items: center; /* align items horizontally, in this case */
+  height: 70vh; /* for demo purposes */
+  background-color: #eee; /* for demo purposes */
+}
+
+.box {
+  width: 300px;
+  margin: 5px;
+  text-align: center;
+}
+
+#bluebox { background: aqua; }
+#redbox { background: red; }

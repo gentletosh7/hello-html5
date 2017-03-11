@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#parent {
+  background-color: steelblue;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.child {
+  height: 100px;
+}
+
+.child1 {
+  background-color: skyblue;
+  width: 300px;
+}
+
+.child2 {
+  background-color: cadetblue;
+  width: 300px;
+
+}
+
+.child3 {
+  background-color: aliceblue;
+  width: 300px;
+}
+
+/*
+.child4 {
+  background-color: aqua;
+}
+
+.child5 {
+  background-color: blue;
+}
+
+.child6 {
+  background-color: brown;
+}
+
+.child7 {
+  background-color: beige;
+}
+
+.child8 {
+  background-color: blueviolet;
+}
+
+.child9 {
+  background-color: burlywood;
+}*/

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+body {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box; }
+  body header {
+    display: inline-block; }
+  body nav {
+    display: inline-block;
+    float: right; }
+    body nav a {
+      margin-right: 20px;
+      text-decoration: none; }
+  body main section {
+    text-align: center; }
+  body footer nav {
+    float: left; }
+  body footer .language {
+    display: inline-block;
+    float: right; }
+    body footer .language img {
+      width: 50px; }
+
+/*# sourceMappingURL=hoppingpass.css.map */
