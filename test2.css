@@ -1,0 +1,37 @@
+#parent {
+  background-color: grey;
+  height: 300px;
+  display: flex; }
+
+/*
+Target all children element
+ */
+.child {
+  flex-grow: 1; }
+
+.child1 {
+  background-color: goldenrod; }
+
+.child2 {
+  background-color: aquamarine; }
+
+.child3 {
+  display: flex;
+  background-color: green; }
+
+/*
+Target all sibling element
+ */
+.inner-child1 {
+  background-color: gold; }
+
+.inner-child2 {
+  background-color: greenyellow; }
+
+.inner-child3 {
+  background-color: yellow; }
+
+.child4 {
+  background-color: fuchsia; }
+
+/*# sourceMappingURL=test2.css.map */

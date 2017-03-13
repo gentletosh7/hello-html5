@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+$primary-color: aqua;
 
 * {
   padding: 0;
@@ -58,12 +59,12 @@ body {
           height: 40px;
           border: none;
           color: white;
-          background-color: aqua;
+          background-color: $primary-color;
           border-radius: 5px;
         }
 
         button:active {
-          background-color: aquamarine;
+          background-color: darken($primary-color, 1%);
         }
       }
 
