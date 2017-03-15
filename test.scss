@@ -12,7 +12,7 @@ $primary-color: aqua;
 
 body {
   font-family: 'Lato', sans-serif;
-  height: 100vh!important;
+  height: 100vh;
   background: url("images/coming-soon-bg.png") no-repeat center center;
   background-size: cover;
   color: white;
@@ -28,12 +28,14 @@ body {
       text-align: center;
 
       h1 {
-        font-size: 65px;
+        font-size: 85px;
         text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+        margin-bottom: 15px;
       }
 
       h4 {
-        font-size: 35px;
+        font-size: 45px;
+        margin-bottom: 15px;
         font-weight: 300;
         text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
       }
@@ -45,22 +47,23 @@ body {
           font-family: 'Lato', sans-serif;
           font-size: 15px;
           width: 300px;
-          height: 40px;
+          height: 60px;
           border: none;
           padding: 10px;
           margin-right: -8;
           border: 0;
           background-color: white;
+          border-radius: 0;
+          -webkit-appearance: none;
         }
 
         button {
           font-size: 15px;
-          width: 200px;
-          height: 40px;
+          width: 300px;
+          height: 60px;
           border: none;
           color: white;
           background-color: $primary-color;
-          border-radius: 5px;
         }
 
         button:active {
