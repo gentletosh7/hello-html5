@@ -49,8 +49,8 @@ body {
           height: 60px;
           border: none;
           color: white;
-          background-color: aqua; }
+          background-color: #ff1f45; }
         body main .section form button:active {
-          background-color: #00fafa; }
+          background-color: #c71836; }
 
 /*# sourceMappingURL=test.css.map */

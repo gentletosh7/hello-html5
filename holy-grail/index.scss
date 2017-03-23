@@ -1,0 +1,68 @@
+
+* {
+  outline: none;
+}
+
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+
+  header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: deepskyblue;
+
+  }
+
+  main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/coming-soon-bg.png");
+    background-position: center;
+    background-size: cover;
+
+
+    button {
+      background-color: hotpink;
+      border: none;
+      width: 300px;
+      height: 50px;
+      color: white;
+      font-size: 30px;
+      cursor: pointer;
+
+    }
+    button:active {
+      background-color: darken(hotpink, 10%);
+    }
+
+  }
+
+  footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: deepskyblue;
+
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  main {
+    flex-direction: column;
+  }
+
+}

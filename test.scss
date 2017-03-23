@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
-$primary-color: aqua;
+
+$primary: #1fb6ff;
+$primary_light: #25daff;
+$primary_dark: #1992cc;
+$black: #1c2124;
+$dark: #3b454a;
+$light: #c8cfd3;
+$white: #f9fafa;
+$accent_0: #ff1f45;
+$accent_0_light: #ff2553;
+$accent_0_dark: #cc1937;
 
 * {
   padding: 0;
@@ -63,11 +73,11 @@ body {
           height: 60px;
           border: none;
           color: white;
-          background-color: $primary-color;
+          background-color: $accent_0;
         }
 
         button:active {
-          background-color: darken($primary-color, 1%);
+          background-color: darken($accent_0_dark, 1%);
         }
       }
 
